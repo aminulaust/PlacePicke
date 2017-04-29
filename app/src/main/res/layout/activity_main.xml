@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aminulaust.com.placepicker.MainActivity">
+
+    <Button
+        android:id="@+id/mypicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick an Address"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22dp"
+        android:background="@color/colorAccent"
+        android:layout_margin="22dp"
+        />
+    <TextView
+        android:id="@+id/myview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="My View"
+        android:layout_margin="22dp"
+        />
+
+    <!--
+    <TextView
+        android:id="@+id/myaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="My Address"
+        android:layout_margin="22dp"
+        />
+    <TextView
+        android:id="@+id/myattributes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="My Attributes"
+        android:layout_margin="22dp"
+        />
+
+-->
+
+</LinearLayout>
